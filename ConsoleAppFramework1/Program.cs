@@ -1,13 +1,15 @@
-﻿using System;
+﻿using Linearstar.Windows.RawInput;
+using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
-using Linearstar.Windows.RawInput;
 
-namespace RawInput.Sharp.SimpleExample
+namespace ConsoleAppFramework1
 {
     class Program
     {
-        [STAThread]
         static void Main()
         {
             // Get the devices that can be handled with Raw Input.
