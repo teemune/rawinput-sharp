@@ -20,6 +20,8 @@ namespace RawInput.Sharp.SimpleExample
             foreach (var device in keyboards)
                 Console.WriteLine($"{device.DeviceType} {device.VendorId:X4}:{device.ProductId:X4} {device.ProductName}, {device.ManufacturerName}");
 
+            //var registeredDevices = RawInputDevice.GetRegisteredDevices();
+
             // To begin catching inputs, first make a window that listens WM_INPUT.
             var window = new RawInputReceiverWindow();
 
